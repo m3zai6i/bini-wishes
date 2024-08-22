@@ -31,7 +31,7 @@ st.text("P.S. The future is yours to create! 🌟")
 
 st.subheader("Choose an Action:")
 
-if st.button("🎉 Send Congratulations", type='primary'  ):
+if st.button("🎉 Send Congratulations", type="primary"):
     
     st.success("Your congratulations message has been sent to Binish!")
     st.image("she_graduated_with_3_04_cgpa.jpeg")
