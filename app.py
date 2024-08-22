@@ -29,6 +29,12 @@ st.image("https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif")
 # Footer
 st.text("P.S. The future is yours to create! 🌟")
 
-st.markdown("---")
-st.image("she_graduated_with_3_04_cgpa.jpeg")
-st.markdown("---")
+st.subheader("Choose an Action:")
+
+if st.button("🎉 Send Congratulations", type='primary'  ):
+    
+    st.success("Your congratulations message has been sent to Binish!")
+    st.image("she_graduated_with_3_04_cgpa.jpeg")
+
+
+    
